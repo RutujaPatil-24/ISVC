@@ -1,7 +1,7 @@
 Feature: R4C Case Creation
 
-@TestCaseNo1.0
-@Sanity111
+@TestCaseSRCCNo1
+@SanitySRCC
  Scenario: Verify the Case creation for Service Type as 
      Stock Rotation & Return Reason as Standard Stock Rotation with Freight type as CRF using PO Search
   
@@ -17,7 +17,7 @@ Feature: R4C Case Creation
    And Click on the create button
    And Enter SoldTo and select "6006683685"
    #And Enter Sold To details
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select credit
    And Select Promotional Stock option
@@ -50,8 +50,8 @@ Feature: R4C Case Creation
     Then User can view Successful message
    And Close browser
     
-@TestCaseNo2
-@Sanity22
+@TestCaseSRCCNo2
+@SanitySRCC
 Scenario: Verify the Case creation for Stock Rotation & Return Reason as
       Standard Stock Rotation with Freight type as IMF using SO Search  
  
@@ -65,7 +65,7 @@ Scenario: Verify the Case creation for Stock Rotation & Return Reason as
    And Select service type as "Stock Rotation & Return"
    And Click on the create button
    And Enter SoldTo and select "6006683685"
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select credit
   #And Enter Sold To details
@@ -96,7 +96,7 @@ Scenario: Verify the Case creation for Stock Rotation & Return Reason as
    And Close browser
     
    
-@TestCaseNo3
+@TestCaseSRCCNo3
 @Sanity
  Scenario: Verify the Case creation for Stock Rotation & Return Reason as Promotional Stock Rotation with Freight type as CRF using MM Search
    Given User Launch Chrome browser
@@ -109,7 +109,7 @@ Scenario: Verify the Case creation for Stock Rotation & Return Reason as
    And Select service type as Stock roatation
    #And Enter Sold To details
    And Enter SoldTo and select "6006683685"
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select credit
    And Select Promotional Stock option
@@ -136,7 +136,7 @@ Scenario: Verify the Case creation for Stock Rotation & Return Reason as
    Then User can view Successful message
    And Close browser
     
-@TestCaseNo4.0
+@TestCaseSRCCNo4
 @Sanity
 Scenario: Verify the Case creation for Stock Rotation & Return Reason as 
       Promotional Stock Rotation with Freight type as IMF using Bulk Upload
@@ -150,7 +150,7 @@ Scenario: Verify the Case creation for Stock Rotation & Return Reason as
    And Select service type as Stock roatation
    #And Enter Sold To details
    And Enter SoldTo and select "6006683685"
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select credit
    And Select Promotional Stock option
@@ -178,7 +178,7 @@ Scenario: Verify the Case creation for Stock Rotation & Return Reason as
     And Close browser
     
     
- @TestCaseNo5
+ @TestCaseSRCCNo
  
  Scenario: Verify the PO Search functionality
   Given User Launch Chrome browser
@@ -193,7 +193,7 @@ Scenario: Verify the Case creation for Stock Rotation & Return Reason as
    Then Click on the search button
    And Close browser
    
-   @TestCaseNo5.1
+   @TestCaseSRCCNo5
    @Retest
  Scenario: Verify the PO Search functionality
   Given User Launch Chrome browser
@@ -207,7 +207,7 @@ Scenario: Verify the Case creation for Stock Rotation & Return Reason as
    And Click on the create button
    And Enter SoldTo and select "6006683685"
    #And Enter Sold To details
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select credit
     And Select Promotional Stock option
@@ -235,7 +235,7 @@ Scenario: Verify the Case creation for Stock Rotation & Return Reason as
    Then Click on the search button
    And Close browser
    
-  @TestCaseNo6.1
+  @TestCaseSRCCNo6
   @Retest
    Scenario: Verify the SO Search functionality
    Given User Launch Chrome browser
@@ -248,7 +248,7 @@ Scenario: Verify the Case creation for Stock Rotation & Return Reason as
    And Select service type as "Stock Rotation & Return"
    And Click on the create button
    And Enter SoldTo and select "6006683685"
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select credit
   # And Enter Sold To details
@@ -276,7 +276,7 @@ Scenario: Verify the Case creation for Stock Rotation & Return Reason as
    And Click on search button after Entering MM Number 
    And Close browser
    
- @TestCaseNo7.1
+ @TestCaseSRCCNo7
  @Retest
  Scenario: Verify the MM Search functionality
    Given User Launch Chrome browser
@@ -289,7 +289,7 @@ Scenario: Verify the Case creation for Stock Rotation & Return Reason as
    And Select service type as Stock roatation
    #And Enter Sold To details
    And Enter SoldTo and select "6006683685"
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select credit
    And Select Promotional Stock option
@@ -301,7 +301,7 @@ Scenario: Verify the Case creation for Stock Rotation & Return Reason as
    When Clickon Product radiobutton and enter MM Number "99APD4"
    And Click on search button after Entering MM Number
     
- @TestCaseNo8
+ @TestCaseSRCCNo8
         
  Scenario: Verify the CPN Search functionality
   Given User Launch Chrome browser
@@ -318,7 +318,7 @@ Scenario: Verify the Case creation for Stock Rotation & Return Reason as
    And click on search button 
    And Close browser
   
- @TestCaseNo9
+ @TestCaseSRCCNo9
  @Retest   
  Scenario: Verify the OPN Search functionality
  Given User Launch Chrome browser
@@ -335,7 +335,7 @@ Scenario: Verify the Case creation for Stock Rotation & Return Reason as
    And click on search button 
    And Close browser
     
- @TestCaseNo10
+ @TestCaseSRCCNo10
     
  Scenario: Verify the Bulk Upload functionality
  Given User Launch Chrome browser
@@ -349,7 +349,7 @@ Scenario: Verify the Case creation for Stock Rotation & Return Reason as
    And Click On Validate Button
    And Close browser
    
- @TestCaseNo10.1
+ @TestCaseSRCCNo11
  Scenario: Verify the Case creation for Stock Rotation & Return Reason as 
       Promotional Stock Rotation with Freight type as IMF using Bulk Upload
  Given User Launch Chrome browser
@@ -362,7 +362,7 @@ Scenario: Verify the Case creation for Stock Rotation & Return Reason as
    And Select service type as Stock roatation
    #And Enter Sold To details
    And Enter SoldTo and select "6006683685"
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select credit
    And Select Promotional Stock option
@@ -374,7 +374,7 @@ Scenario: Verify the Case creation for Stock Rotation & Return Reason as
    And Click On Bulk upload "C:\Users\oyadavx\OneDrive - Intel Corporation\Desktop\MMCPN_BulkUploadTemplate.csv"
     And Click On Validate Button 
      
-@TestCaseNo11
+@TestCaseSRCCNo12
       
  Scenario: Verify the PO History functionality
   Given User Launch Chrome browser
@@ -390,7 +390,7 @@ Scenario: Verify the Case creation for Stock Rotation & Return Reason as
    And Clickon PO History 
    And Close browser
    
- @TestCaseNo11.1 
+ @TestCaseSRCCNo13 
  @Retest 
   Scenario: Verify the PO History functionality
    Given User Launch Chrome browser
@@ -403,7 +403,7 @@ Scenario: Verify the Case creation for Stock Rotation & Return Reason as
    And Select service type as Stock roatation
    #And Enter Sold To details
    And Enter SoldTo and select "6006683685"
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select credit
    And Select Promotional Stock option
@@ -416,7 +416,7 @@ Scenario: Verify the Case creation for Stock Rotation & Return Reason as
    And Click on search button after Entering MM Number      
    And Clickon PO History 
     
- @TestCaseNo12
+ @TestCaseSRCCNo14
    
  Scenario: Verify the Save for Later functionality Search/Upload Line item page
 Given User Launch Chrome browser
@@ -433,7 +433,7 @@ Given User Launch Chrome browser
    When Click on Save for later button
    And Close browser
    
-  @TestCaseNo12.1
+  @TestCaseSRCCNo15
   
    Scenario: Verify the Save for Later functionality Search/Upload Line item page
    Given User Launch Chrome browser
@@ -446,7 +446,7 @@ Given User Launch Chrome browser
    And Select service type as Stock roatation
    #And Enter Sold To details
    And Enter SoldTo and select "6006683685"
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select credit
    And Select Promotional Stock option
@@ -461,7 +461,7 @@ Given User Launch Chrome browser
    When Click on Save for later button
    And Print Case No into Console SR
     
-@TestCaseNo13
+@TestCaseSRCCNo16
 @Sanity
  Scenario: Verify the Price Override functionality with L<=25K   
  
@@ -476,7 +476,7 @@ Given User Launch Chrome browser
    And Click on the create button
    And Enter SoldTo and select "6006683685" 
    And Select Remedy and reason
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select RCA address first
    And Select Return customer contact first
@@ -503,7 +503,7 @@ Given User Launch Chrome browser
     Then User can view Successful message
     And Close browser
     
- @TestCaseNo14
+ @TestCaseSRCCNo17
  @Sanity
  Scenario: Verify the Price Override functionality with G>=25K   
  Given User Launch Chrome browser
@@ -517,7 +517,7 @@ Given User Launch Chrome browser
    And Click on the create button
    And Enter SoldTo and select "6006683685" 
    And Select Remedy and reason
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select RCA address first
    And Select Return customer contact first

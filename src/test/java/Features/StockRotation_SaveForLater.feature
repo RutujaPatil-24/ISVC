@@ -1,6 +1,6 @@
 Feature: R4C Case Save For Later
-@TestCaseNo1
-@Sanity
+@TestCaseSRSFLNo1
+@SanitySRSFL
  Scenario: Verify the Save for Later functionality in Request Header details
    Given User Launch Chrome browser
    When User open URL 
@@ -20,8 +20,8 @@ Feature: R4C Case Save For Later
    And Close browser
    
    
- @TestCaseNo2
- @Sanity
+ @TestCaseSRSFLNo1
+ @SanitySRSFL
  Scenario: Verify the Save for Later functionality Search/Upload Line item page
    Given User Launch Chrome browser
    When User open URL 
@@ -44,8 +44,8 @@ Feature: R4C Case Save For Later
    And Print Case No into Console SR
    And Close browser
 
- @TestCaseNo3
- @Sanity
+ @TestCaseSRSFLNo1
+ @SanitySRSFL
  @highPriority
  Scenario: Verify the Save for Later functionality Product Validation page
    Given User Launch Chrome browser
@@ -72,10 +72,10 @@ Feature: R4C Case Save For Later
    
   
    
-@TestCaseNo4
-@Sanity
+@TestCaseSRSFLNo1
+@SanitySRSFL
 @highPriority
- Scenario: Verify the Case creation for Service Type as Technical with ULT is not mandatory
+ Scenario: Verify the Save for Later functionality Credit Price Validation page
   Given User Launch Chrome browser
    When User open URL 
    And User Enter Email Address and pass PassWord
